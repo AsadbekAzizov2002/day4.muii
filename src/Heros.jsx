@@ -2,6 +2,7 @@ import React from "react";
 import SearchIcon from "@mui/icons-material/Search";
 import MicIcon from "@mui/icons-material/Mic";
 import CameraAltIcon from "@mui/icons-material/CameraAlt";
+import { Link } from "@mui/material";
 
 const Heros = () => {
   return (
@@ -20,8 +21,17 @@ const Heros = () => {
             className=" w-[480px] rounded outline-none"
           />
           <span className=" flex items-center gap-5 ">
-            <MicIcon />
-            <CameraAltIcon />
+            <Link
+              underline="hover"
+              color="text.white"
+              href="/"
+              aria-current="page"
+            >
+              <MicIcon />
+            </Link>
+            <Link underline="hover" color="red" href="/">
+              <CameraAltIcon />
+            </Link>
           </span>
         </div>
       </main>

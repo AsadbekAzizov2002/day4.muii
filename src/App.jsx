@@ -5,7 +5,7 @@ import Heros from "./Heros";
 
 const App = () => {
   return (
-    <div className="">
+    <div className=" bg-cover h-screen bg-center bg-[url('https://getwallpapers.com/wallpaper/full/8/2/3/25529.jpg')]">
       <Header />
       <Heros />
       <Googles />
