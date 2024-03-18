@@ -1,14 +1,14 @@
 import React from "react";
 import Header from "./Header";
-import Hero from "./Hero";
+import Googles from "./Googles";
+import Heros from "./Heros";
 
 const App = () => {
   return (
     <div className="">
       <Header />
-      <main className=" container w-[1240px] px-4">
-        <Hero />
-      </main>
+      <Heros />
+      <Googles />
     </div>
   );
 };
